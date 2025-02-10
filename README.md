@@ -1,5 +1,12 @@
-To start the server, in the `receipt-processor-challenge` folder, run this
+To start the server, in the `receipt-processor-challenge` folder, 
 
+First run these commands:
+```
+go mod init main
+go mod tidy
+```
+
+Once the above commands have completed, run 
 ```
 go run .
 ```
